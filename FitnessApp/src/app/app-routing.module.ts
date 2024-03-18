@@ -5,7 +5,7 @@ import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsComponent } from './forms/forms.component';
 import { SalleComponent } from './salle/salle.component';
-import { SignupComponent } from './signup/signup.component';
+// import { SignupComponent } from './signup/signup.component';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HealthyFoodComponent } from './healthy-food/healthy-food.component';
@@ -17,7 +17,7 @@ const routes: Routes = [
 {path:'healthy-food',component:HealthyFoodComponent},
 {path:'forms',component:FormsComponent},
 {path:'salle',component:SalleComponent},
-{path:'signup',component:SignupComponent},
+// {path:'signup',component:SignupComponent},
 {path:'login', component:LoginComponent},
 { path: '**', component: DashboardComponent },
 
