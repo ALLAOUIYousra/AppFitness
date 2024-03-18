@@ -1,0 +1,35 @@
+.dashboard {
+    background-color: #ffffff;
+    border: 1px solid rgb(50, 46, 46);
+    border-radius: 8px;
+    padding: 20px;
+    /* margin: 20px; */
+  }
+  
+  .navbar {
+    /* background-color: #251336; */
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    color: #cccccc;
+  }
+  

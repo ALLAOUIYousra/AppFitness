@@ -1,3 +1,24 @@
-
-<app-login></app-login>
-<router-outlet></router-outlet>
+<div class="dashboard bg-gray-800">
+    <nav class="navbar flex justify-center p-4 bg-gray-800">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a routerLink="/dashboard" class="nav-link">Entraînements</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/healthy-food" class="nav-link">Alimentation saine</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/forms" class="nav-link">coaching</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/footer" class="nav-link">Contacts</a>
+        </li>
+        <li class="nav-item">
+          <div routerLink="/login" class="nav-link"  >Se connecter / S'inscrire</div>
+         
+        </li>
+      </ul>
+    </nav>
+  </div>
+<router-outlet></router-outlet> 
+<app-footer></app-footer>
